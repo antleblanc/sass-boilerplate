@@ -1,0 +1,42 @@
+@charset 'UTF-8';
+
+// 1. Vendors
+@import 'vendor/normalize';
+
+// 2. Configuration and helpers
+@import 'utils/variables';
+@import 'utils/functions';
+@import 'utils/mixins';
+
+// 3. Base stuff
+@import 'base/base';
+@import 'base/fonts';
+@import 'base/typography';
+@import 'base/helpers';
+
+// 4. Layout-related sections
+@import 'layout/header';
+@import 'layout/navigation';
+@import 'layout/content';
+@import 'layout/primary';
+@import 'layout/sidebar';
+@import 'layout/footer';
+
+// 5. Modules
+@import 'modules/page-header';
+@import 'modules/quote';
+
+// 6. Components
+@import 'components/breadcrumbs';
+@import 'components/button';
+@import 'components/form';
+@import 'components/table';
+
+// 7. Page-specific styles
+@import 'pages/home';
+
+// 8. Themes
+@import 'themes/default';
+
+// 9. Shame
+@import 'shame/shame';

@@ -1,0 +1,9 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the main of the site/application.
+// -----------------------------------------------------------------------------
+
+@include respond-to('medium') {
+  .page-content {
+    display: flex;
+  }
+}

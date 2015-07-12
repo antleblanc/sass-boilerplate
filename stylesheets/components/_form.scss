@@ -1,0 +1,20 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the form component.
+// -----------------------------------------------------------------------------
+
+// input
+// textarea
+// button
+// select
+// option
+// optiongroup
+// fieldset
+// label
+
+input:not(:focus):invalid {
+  background-color: #FFD9D9;
+}
+
+input:not(:focus):valid {
+  background-color: #D9FFD9;
+}

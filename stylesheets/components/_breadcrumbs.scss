@@ -1,0 +1,46 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the breadcrumb component.
+// -----------------------------------------------------------------------------
+//
+// Indicate the current page's location within a navigational hierarchy.
+// Separators are automatically added in CSS through `::before`
+//
+
+
+/// Breadcrumb background color
+/// @type Color
+$breadcrumb-text-color: #D3D3D3;
+
+/// Breadcrumb background color
+/// @type Color
+$breadcrumb-bg-color: #F2F2F2;
+
+/// Breadcrumb active item
+/// @type Color
+$breadcrumb-active-color: #A9A9A9;
+
+
+.breadcrumb {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+
+  background-color: $breadcrumb-bg-color;
+
+  > li {
+    display: inline-block;
+
+    &::before {
+      color: $breadcrumb-text-color;
+    }
+
+    + li::before {
+      content: '>';
+    }
+  }
+
+  > .active {
+    color: $breadcrumb-active-color;
+  }
+}
