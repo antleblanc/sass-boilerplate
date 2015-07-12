@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="media/logo.svg" alt="sass-boilerplate">
+  <img src="https://rawgit.com/antleblanc/sass-boilerplate/master/media/logo.svg" alt="sass-boilerplate">
 </h1>
 
 > Personal Sass-boilerplate (WIP).
