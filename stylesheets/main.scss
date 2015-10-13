@@ -1,12 +1,12 @@
 @charset 'UTF-8';
 
-// 1. Vendors
-@import 'vendor/normalize';
-
-// 2. Configuration and helpers
+// 1. Configuration and helpers
 @import 'utils/variables';
 @import 'utils/functions';
 @import 'utils/mixins';
+
+// 2. Vendors
+@import 'vendors/normalize';
 
 // 3. Base stuff
 @import 'base/base';
@@ -22,21 +22,17 @@
 @import 'layout/sidebar';
 @import 'layout/footer';
 
-// 5. Modules
-@import 'modules/page-header';
-@import 'modules/quote';
-
-// 6. Components
+// 5. Components
 @import 'components/breadcrumbs';
 @import 'components/button';
 @import 'components/form';
 @import 'components/table';
 
-// 7. Page-specific styles
+// 6. Page-specific styles
 @import 'pages/home';
 
-// 8. Themes
+// 7. Themes
 @import 'themes/default';
 
-// 9. Shame
-@import 'shame/shame';
+// Shame
+@import 'base/shame';

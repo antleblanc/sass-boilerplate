@@ -12,9 +12,9 @@
 // label
 
 input:not(:focus):invalid {
-  background-color: #FFD9D9;
+    background-color: #FFD9D9;
 }
 
 input:not(:focus):valid {
-  background-color: #D9FFD9;
+    background-color: #D9FFD9;
 }

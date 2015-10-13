@@ -17,7 +17,7 @@ $text-color: #222 !default;
 /// @prop {Map} values - Values are actual breakpoints expressed in pixels
 /// @see {mixin} respond-to
 $breakpoints: (
-  'small': (min-width: 320px),
-  'medium': (min-width: 768px),
-  'large': (min-width: 1024px),
+    'small': (min-width: 320px),
+    'medium': (min-width: 768px),
+    'large': (min-width: 1024px),
 ) !default;

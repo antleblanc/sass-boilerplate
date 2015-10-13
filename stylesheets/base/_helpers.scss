@@ -8,17 +8,17 @@
  * https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css#L119-L133
  */
 .visually-hidden {
-  clip: rect(0 0 0 0);
+    clip: rect(0 0 0 0);
 
-  width: 1px;
-  height: 1px;
+    width: 1px;
+    height: 1px;
 
-  margin: -1px;
-  padding: 0;
+    margin: -1px;
+    padding: 0;
 
-  position: absolute;
+    position: absolute;
 
-  border: 0;
+    border: 0;
 
-  overflow: hidden;
+    overflow: hidden;
 }

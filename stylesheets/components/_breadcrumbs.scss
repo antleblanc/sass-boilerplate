@@ -21,26 +21,26 @@ $breadcrumb-active-color: #A9A9A9;
 
 
 .breadcrumb {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 
-  list-style: none;
+    list-style: none;
 
-  background-color: $breadcrumb-bg-color;
+    background-color: $breadcrumb-bg-color;
 
-  > li {
-    display: inline-block;
+    > li {
+        display: inline-block;
 
-    &::before {
-      color: $breadcrumb-text-color;
+        &::before {
+            color: $breadcrumb-text-color;
+        }
+
+        + li::before {
+            content: '>';
+        }
     }
 
-    + li::before {
-      content: '>';
+    > .active {
+        color: $breadcrumb-active-color;
     }
-  }
-
-  > .active {
-    color: $breadcrumb-active-color;
-  }
 }

@@ -3,28 +3,28 @@
 // -----------------------------------------------------------------------------
 
 html {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 *,
 *::before,
 *::after {
-  box-sizing: inherit;
+    box-sizing: inherit;
 }
 
 body {
-  position: relative;
+    position: relative;
 
-  font-style: normal;
-  font-family: $text-font-stack;
+    font-style: normal;
+    font-family: $text-font-stack;
 
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
 
-  line-height: 1.6250;
+    line-height: 1.6250;
 
-  color: $text-color;
+    color: $text-color;
 }
 
 
@@ -34,5 +34,5 @@ body {
 
 // Defines an image
 img {
-  // ..
+    // ..
 }

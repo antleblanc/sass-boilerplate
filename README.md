@@ -8,22 +8,18 @@ Shamelessly borrowed from [HugoGiraudel](https://github.com/HugoGiraudel/sass-bo
 
 ## Architecture
 
-The [7-1 Pattern](http://sass-guidelin.es/#the-7-1-pattern) up 9-1 Pattern.
+The [7-1 Pattern](http://sass-guidelin.es/#the-7-1-pattern).
 
 ```sh
 stylesheets/
 ├── base/
 ├── components/
 ├── layout/
-├── modules/
 ├── pages/
-├── shame/
 ├── themes/
 ├── utils/
-└── vendor/
+└── vendors/
 ```
-
-Two additions with `modules` and `shame` folders.
 
 ## Resources
 
