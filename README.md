@@ -36,4 +36,4 @@ stylesheets/
 
 ## License
 
-MIT © [Antoine Leblanc](http://antleblanc.me)
+MIT © [Antoine Leblanc](https://antleblanc.me)
