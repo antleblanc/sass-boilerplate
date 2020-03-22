@@ -1,6 +1,6 @@
 scss_files: 'stylesheets/**/*.css.scss'
 
-exlude: 'stylesheets/vendors/**'
+exclude: 'stylesheets/vendors/**'
 
 linters:
   Comment:
