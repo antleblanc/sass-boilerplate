@@ -4,7 +4,7 @@
 
 > Personal Sass-boilerplate (WIP).
 
-Shamelessly borrowed from [HugoGiraudel](https://github.com/HugoGiraudel/sass-boilerplate).
+Shamelessly borrowed from [KittyGiraudel](https://github.com/KittyGiraudel/sass-boilerplate).
 
 ## Architecture
 
